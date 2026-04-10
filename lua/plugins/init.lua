@@ -1,6 +1,6 @@
 vim.pack.add({
-	{ src = "https://github.com/folke/tokyonight.nvim", opt = false },
-	{ src = "https://github.com/nvim-treesitter/nvim-treesitter", opt = false },
+	"https://github.com/folke/tokyonight.nvim",
+	"https://github.com/nvim-treesitter/nvim-treesitter",
 	"https://github.com/brenoprata10/nvim-highlight-colors",
 	"https://github.com/nvim-lualine/lualine.nvim",
 	"https://github.com/nvim-telescope/telescope.nvim",
