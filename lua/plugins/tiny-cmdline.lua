@@ -1,0 +1,1 @@
+require('tiny-cmdline').setup()

@@ -1,0 +1,5 @@
+require('plugins.tokyonight')
+require('plugins.lualine')
+require('plugins.highlight')
+require('plugins.tiny-cmdline')
+require('plugins.blink')
