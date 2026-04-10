@@ -16,7 +16,7 @@ opt.smartcase = true
 opt.hlsearch = false
 opt.splitbelow = true
 opt.splitright = true
-opt.mouse = 'a'
+opt.mouse = "a"
 opt.undofile = true
 opt.signcolumn = "yes"
 opt.clipboard:append("unnamedplus")
