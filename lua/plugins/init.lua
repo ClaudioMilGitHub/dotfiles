@@ -6,6 +6,8 @@ vim.pack.add({
 	"https://github.com/nvim-telescope/telescope.nvim",
 	"https://github.com/nvim-lua/plenary.nvim",
 	"https://github.com/rachartier/tiny-cmdline.nvim",
+	"https://github.com/nvim-mini/mini.nvim",
+	"https://github.com/stevearc/oil.nvim",
 })
 
 require("plugins.tokyonight")
@@ -15,3 +17,5 @@ require("plugins.tiny-cmdline")
 require("plugins.blink")
 require("plugins.conform")
 require("plugins.lspconfig")
+require("plugins.icons")
+require("plugins.oil")

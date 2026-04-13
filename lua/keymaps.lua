@@ -8,8 +8,8 @@ vim.g.mapleader = " "
 map("n", "<leader>w", "<cmd>w<CR>", { desc = "Salva file" })
 map("n", "<leader>q", "<cmd>qa!<CR>", { desc = "Quit" })
 
--- open netrw
-map("n", "<leader>e", "<cmd>Ex<CR>", { desc = "open netrw" })
+-- open Oil.nvim
+map("n", "<leader>e", "<cmd>Oil<CR>", { desc = "Open Oil" })
 
 -- ============================================================
 --  WINDOW / SPLIT
