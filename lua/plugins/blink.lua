@@ -2,7 +2,12 @@ vim.api.nvim_create_autocmd("InsertEnter", {
 
 	once = true,
 	callback = function()
-		vim.pack.add({ "blink.cmp" })
+		vim.pack.add({
+			{
+				src = "https://github.com/saghen/blink.cmp",
+				version = vim.version.range("*"),
+			},
+		})
 		require("blink.cmp").setup({
 			fuzzy = { implementation = "prefer_rust" },
 			keymap = {

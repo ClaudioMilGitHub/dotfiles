@@ -6,10 +6,6 @@ vim.pack.add({
 	"https://github.com/nvim-telescope/telescope.nvim",
 	"https://github.com/nvim-lua/plenary.nvim",
 	"https://github.com/rachartier/tiny-cmdline.nvim",
-	{
-		src = "https://github.com/saghen/blink.cmp",
-		version = vim.version.range('>1.0'),
-	},
 })
 
 require("plugins.tokyonight")
