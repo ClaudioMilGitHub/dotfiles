@@ -2,6 +2,7 @@ vim.o.cmdheight = 0
 require("plugins")
 require("keymaps")
 require("options")
+
 -- Diagnostica
 vim.diagnostic.config({
 	virtual_text = true, -- mostra errore in testo accanto alla riga
